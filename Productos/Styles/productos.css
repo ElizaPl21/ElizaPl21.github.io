@@ -1,0 +1,30 @@
+.encabezado-prod {
+  flex-direction: column;
+  height: 350px;
+  width: auto;
+  justify-content: center;
+  background-size: cover;
+  position: static;
+  background-image: url(../Assets/Fondo.png);
+}
+
+.titulo-prod {
+  font-size: 30px;
+  font-family: 'Acme', sans-serif;
+  text-align: center;
+  color: rgb(18, 17, 17);
+  padding-top: 120px;
+}
+
+.product{
+  background-color: #fff2e6;
+}
+
+li{
+  list-style-type:none;
+}
+
+.cuerpo{
+  display: flex;
+  flex-direction: row;
+}

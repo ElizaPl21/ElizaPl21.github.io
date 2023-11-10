@@ -1,0 +1,99 @@
+.body-LOGIN {
+    padding-top: 90px;
+    background-color: #fff2e6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.titulo-RU,
+.titulo-LI {
+    font-family: 'Acme', sans-serif;
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    margin-bottom: 5%;
+
+}
+
+.cuerpo-LI,
+.cuerpo-RU {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2%;
+    padding: 5%;
+    margin-top: 5%;
+    margin-left: 33%;
+    margin-right: 33%;
+    border-radius: 50px;
+    border: 2px solid black;
+    /* Borde negro de 2 píxeles */
+    box-shadow: 2px 2px 5px rgba(0.5, 0, 0, 1);
+    /* Sombra con desplazamiento y suavidad */
+}
+
+.form-LI {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-control {
+    min-width: 300px;
+    border-radius: 90px;
+}
+
+.btn {
+    margin-left: 30%;
+    margin-right: 30%;
+    text-wrap: nowrap;
+    background-color: #f7be7e;
+    border: 1px solid rgb(231, 135, 26);
+    border-radius: 10px;
+    color: #FFF;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: #f7a446;
+    /* Cambiar el color de fondo al pasar el mouse */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    /* Agregar una sombra suave al pasar el mouse */
+    cursor: pointer;
+    /* Cambiar el cursor al icono de mano al pasar el mouse */
+    border: 2px solid #e8b85f;
+    /* Agregar un borde al pasar el mouse */
+
+}
+
+#mostrarRegistro {
+    color: #000000;
+}
+
+.footer {
+    margin-top: auto;
+    padding: 16px 0;
+}
+.cuerpo-RU {
+    margin-top: 5%;
+    margin-bottom:5%;
+}
+
+@media (max-width:950px) {
+
+    .cuerpo-LI,
+    .cuerpo-RU {
+        max-width: 350px;
+        margin: auto;
+        align-items: center;
+        margin-bottom: auto;
+        margin-top: auto;
+    }
+
+    .cuerpo-RU {
+        margin-top: 6%;
+        margin-bottom: 6%;
+    }
+}
